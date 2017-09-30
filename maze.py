@@ -64,7 +64,7 @@ def buildGraph(mazeFile):
 					if charList[i+1][j] == 0:
 						# Get unique id for bottom neighbor.
 						bottomNbr = posToId(i+1, j, numCols)
-				# The bottom border is still not reached.
+				# The right border is still not reached.
 				if j < numCols - 1:
 					# Check if right neighbor value is zero.
 					if charList[i][j+1] == 0:
